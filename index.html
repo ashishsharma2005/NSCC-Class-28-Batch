@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Revision</title>
+  </head>
+  <style>
+    .navbar {
+      /* border: 2px solid red; */
+      height: 45px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+
+    .insidetext {
+      font-size: 20px;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .navbar input {
+      padding: 5px 5px 5px 5px;
+      border-radius: 15px;
+      width: 15%;
+    }
+
+    .icon:hover {
+      color: rgb(9, 178, 37);
+      font-size: 16px;
+      transition: 0.9s;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .box {
+      width: 64px;
+      aspect-ratio: 1/1;
+      background-color: red;
+      border: 2px solid black;
+    }
+  </style>
+  <body style="background-color: gray">
+    <div class="navbar" style="padding: 30px">
+      <span class="icon">ICON</span>
+
+      <span style="margin-left: 500px">
+        <input type="text" style="height: 30px" placeholder="Search here" />
+      </span>
+      <span style="margin-left: 350px" class="text">
+        <span style="margin-left: 40px" class="insidetext">Home </span>
+        <span class="insidetext">About Us</span>
+        <span class="insidetext">Contact Us</span>
+      </span>
+    </div>
+
+    <div class="flex">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
